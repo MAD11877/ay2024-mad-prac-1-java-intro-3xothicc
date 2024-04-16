@@ -5,7 +5,7 @@ public class Question4
   public static void main(String[] args) 
   {
       Scanner in = new Scanner(System.in);
-    //enter base size
+    //enter the number of stars on the base of the triangle, called baseSize
       int baseSize = in.nextInt();
     
     //print each row of the triangle
