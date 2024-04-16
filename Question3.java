@@ -6,15 +6,15 @@ public class Question3
   { 
     Scanner in = new Scanner(System.in);
     //enter integer
-    System.out.println("Enter an integer:");
-
+    
     //read input
     int number = in.nextInt();
 
     //multiply integer
     int squared = number * number;
-
-    System.out.println(number + " multiplied by itself is " + squared);
+    
+    //print result
+    System.out.print(squared);
 
     in.close();
   }
